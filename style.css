@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue";
+    transition: 0.1s;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+}
+
+.card:hover a {
+    background: #E3E3E6;
+}
+
+.card:hover h2 {
+    color: #EE6E7D;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background: #ebebed;
+    width: 270px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.card h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card {
+    margin: 4px 0;
+}
+
+.card img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-card-circle {
+    border-radius: 100%;
+    display: inline-block;
+    alignment: center ;
+    margin-right: 10px;
+}
+
+.img-card {
+    display: inline-block;
+    alignment: center ;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #b0b0b1;
+    font-weight: 700;
+    max-width: 170px;
+}
+
+h1 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #b0b0b1;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.wrapper {
+    width: 62%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input[type=text] {
+    border: none;
+    font-size: 80px;
+    font-weight: 900;
+    width: 800px;
+    background: none;
+    color: #EE6E7D;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: #c2c2c2;
+}
+
+::placeholder:focus {
+    border: none;
+}
+ button {
+    background: none;
+    width: 60px;
+    border: none;
+}
+
+button:hover {
+    width: 65px;
+}
+
+.search {
+    max-width: 900px;
+    margin: 50px auto;
+
+}
+
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
